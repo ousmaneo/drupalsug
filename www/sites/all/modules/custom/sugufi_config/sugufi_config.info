@@ -1,0 +1,4 @@
+name = "SUGUFI Config"
+description = Sugufi config module. This module is responsible for general sugufi config
+package = "SUGUFI Development"
+core = 7.x

@@ -1,0 +1,4 @@
+name = "Forever Senegal"
+description = Forever config module. This module is responsible for general forever senegal config
+package = "Forever Development"
+core = 7.x

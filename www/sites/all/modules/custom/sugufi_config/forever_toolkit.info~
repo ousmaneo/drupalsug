@@ -1,0 +1,4 @@
+name = "Centre de ressources Deploy"
+description = CDR config module. This module is responsible for general CDR config
+package = "CDR Development"
+core = 7.x

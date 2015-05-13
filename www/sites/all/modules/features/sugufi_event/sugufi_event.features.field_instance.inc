@@ -202,7 +202,7 @@ function sugufi_event_field_default_field_instances() {
           'leaflet_map' => 'OSM Mapnik',
           'popup' => array(
             'show' => 1,
-            'text' => '[node:title]',
+            'text' => '[node:field_business_adress]',
           ),
           'vector_display' => array(
             'clickable' => 0,

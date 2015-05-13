@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Sugufi event feature.
+ */
+
+include_once 'sugufi_event.features.inc';

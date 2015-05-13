@@ -1,0 +1,11 @@
+name = Sugufi search index
+core = 7.x
+package = Features
+dependencies[] = ctools
+dependencies[] = entity
+dependencies[] = facetapi
+dependencies[] = search_api
+features[ctools][] = facetapi:facetapi_defaults:1
+features[facetapi][] = search_api@business_index:block:field_business_category
+features[features_api][] = api:2
+features[search_api_index][] = business_index

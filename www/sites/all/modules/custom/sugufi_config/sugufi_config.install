@@ -3,3 +3,17 @@
  * @file
  * Install, update, and uninstall functions.
  */
+/**
+ * Enable following module.
+ */
+function sugufi_config_update_7001() {
+  module_enable(
+    array(
+      'sugufi_business',
+      'sugufi_event',
+      'sugufi_search_db',
+      'sugufi_search_index',
+    ),
+    TRUE
+  );
+}

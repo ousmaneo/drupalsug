@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Sugufi search index feature.
+ */
+
+include_once 'sugufi_search_index.features.inc';

@@ -26,9 +26,9 @@ function sugufi_business_context_default_contexts() {
   $context->reactions = array(
     'block' => array(
       'blocks' => array(
-        'views-category-block' => array(
-          'module' => 'views',
-          'delta' => 'category-block',
+        'facetapi-jjoQeY2vOPGT1yQClykLPJ2pkOM7xifI' => array(
+          'module' => 'facetapi',
+          'delta' => 'jjoQeY2vOPGT1yQClykLPJ2pkOM7xifI',
           'region' => 'sidebar_second',
           'weight' => '-10',
         ),
@@ -63,9 +63,9 @@ function sugufi_business_context_default_contexts() {
   $context->reactions = array(
     'block' => array(
       'blocks' => array(
-        'facetapi-jjoQeY2vOPGT1yQClykLPJ2pkOM7xifI' => array(
-          'module' => 'facetapi',
-          'delta' => 'jjoQeY2vOPGT1yQClykLPJ2pkOM7xifI',
+        'views-category-block' => array(
+          'module' => 'views',
+          'delta' => 'category-block',
           'region' => 'sidebar_second',
           'weight' => '-10',
         ),

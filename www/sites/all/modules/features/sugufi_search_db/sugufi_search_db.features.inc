@@ -90,6 +90,16 @@ function sugufi_search_db_default_search_api_server() {
             "column" : "value",
             "type" : "list\\u003Curi\\u003E",
             "boost" : "1.0"
+          },
+          "body:value" : {
+            "table" : "search_api_db_business_index_text",
+            "type" : "text",
+            "boost" : "1.0"
+          },
+          "body:summary" : {
+            "table" : "search_api_db_business_index_text",
+            "type" : "text",
+            "boost" : "1.0"
           }
         }
       }

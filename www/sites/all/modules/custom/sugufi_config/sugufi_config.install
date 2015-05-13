@@ -17,3 +17,12 @@ function sugufi_config_update_7001() {
     TRUE
   );
 }
+
+function sugufi_config_update_7002() {
+  module_enable(
+    array(
+      'search_api_autocomplete',
+    ),
+    TRUE
+  );
+}

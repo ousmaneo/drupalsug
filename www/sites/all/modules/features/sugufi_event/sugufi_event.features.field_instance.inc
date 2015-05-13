@@ -55,6 +55,61 @@ function sugufi_event_field_default_field_instances() {
     ),
   );
 
+  // Exported field_instance: 'node-event-field_business_adress'
+  $field_instances['node-event-field_business_adress'] = array(
+    'bundle' => 'event',
+    'default_value' => NULL,
+    'deleted' => 0,
+    'description' => '',
+    'display' => array(
+      'default' => array(
+        'label' => 'above',
+        'module' => 'addressfield',
+        'settings' => array(
+          'format_handlers' => array(
+            0 => 'address',
+          ),
+          'use_widget_handlers' => 1,
+        ),
+        'type' => 'addressfield_default',
+        'weight' => 3,
+      ),
+      'teaser' => array(
+        'label' => 'above',
+        'settings' => array(),
+        'type' => 'hidden',
+        'weight' => 0,
+      ),
+    ),
+    'entity_type' => 'node',
+    'field_name' => 'field_business_adress',
+    'label' => 'Location',
+    'required' => 0,
+    'settings' => array(
+      'user_register_form' => FALSE,
+    ),
+    'widget' => array(
+      'active' => 1,
+      'module' => 'addressfield',
+      'settings' => array(
+        'available_countries' => array(),
+        'default_country' => 'site_default',
+        'format_handlers' => array(
+          'address' => 'address',
+          'address-hide-postal-code' => 'address-hide-postal-code',
+          'address-hide-street' => 0,
+          'address-hide-country' => 0,
+          'organisation' => 0,
+          'name-full' => 0,
+          'name-oneline' => 0,
+          'address-optional' => 0,
+        ),
+      ),
+      'type' => 'addressfield_standard',
+      'weight' => 32,
+    ),
+  );
+
   // Exported field_instance: 'node-event-field_event_date'
   $field_instances['node-event-field_event_date'] = array(
     'bundle' => 'event',
@@ -186,24 +241,25 @@ function sugufi_event_field_default_field_instances() {
     ),
     'widget' => array(
       'active' => 1,
-      'module' => 'geofield',
+      'module' => 'geocoder',
       'settings' => array(
-        'geocoder' => array(
-          'enabled' => TRUE,
-          'handler' => NULL,
-        ),
-        'html5_geolocation' => 1,
-        'map' => array(
-          'auto_center' => TRUE,
-          'base_url' => 'http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
-          'center' => array(
-            'lat' => 0,
-            'lng' => 0,
+        'delta_handling' => 'default',
+        'geocoder_field' => 'field_business_adress',
+        'geocoder_handler' => 'google',
+        'handler_settings' => array(
+          'google' => array(
+            'all_results' => 0,
+            'geometry_type' => 'point',
+            'reject_results' => array(
+              'APPROXIMATE' => 0,
+              'GEOMETRIC_CENTER' => 0,
+              'RANGE_INTERPOLATED' => 0,
+              'ROOFTOP' => 0,
+            ),
           ),
-          'zoom' => 10,
         ),
       ),
-      'type' => 'geofield_latlon',
+      'type' => 'geocoder',
       'weight' => -2,
     ),
   );

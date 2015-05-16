@@ -2,3 +2,39 @@
 /**
  * @file
  */
+
+/**
+ * Implements hook_block_info().
+ */
+function sugufi_config_block_info(){
+    $blocks = array();
+
+    $blocks['home_message_block'] = array(
+        'info' => t('Home message Block'),
+    );
+
+    return $blocks;
+}
+
+function sugufi_config_block_view($delta = '') {
+    $block = array();
+
+    switch ($delta) {
+        case 'home_message_block':
+            $block['subject'] = '';
+            $block['content'] = _block_content($delta);
+            break;
+    }
+
+    return $block;
+}
+
+function _block_content($delta) {
+    switch ($delta) {
+        case 'home_message_block':
+            $output = t('Welcome to Sugufi African Business catalogue.');
+            return $output;
+            break;
+    }
+
+}

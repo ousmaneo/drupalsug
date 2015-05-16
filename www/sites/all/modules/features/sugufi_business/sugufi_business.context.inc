@@ -91,6 +91,24 @@ function sugufi_business_context_default_contexts() {
   $context->reactions = array(
     'block' => array(
       'blocks' => array(
+        'blockify-blockify-logo' => array(
+          'module' => 'blockify',
+          'delta' => 'blockify-logo',
+          'region' => 'header',
+          'weight' => '-10',
+        ),
+        'sugufi_config-home_message_block' => array(
+          'module' => 'sugufi_config',
+          'delta' => 'home_message_block',
+          'region' => 'header',
+          'weight' => '-9',
+        ),
+        'views--exp-business-page' => array(
+          'module' => 'views',
+          'delta' => '-exp-business-page',
+          'region' => 'header',
+          'weight' => '-8',
+        ),
         'views-featured_business-block' => array(
           'module' => 'views',
           'delta' => 'featured_business-block',
@@ -130,10 +148,10 @@ function sugufi_business_context_default_contexts() {
   $context->reactions = array(
     'block' => array(
       'blocks' => array(
-        'views--exp-business-page' => array(
-          'module' => 'views',
-          'delta' => '-exp-business-page',
-          'region' => 'content',
+        'system-main-menu' => array(
+          'module' => 'system',
+          'delta' => 'main-menu',
+          'region' => 'navigation',
           'weight' => '-10',
         ),
       ),

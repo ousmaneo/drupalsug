@@ -1,0 +1,30 @@
+/* line 9, ../../sass/partials/global/helpers/_clearfix.scss */
+.layout-panels-sidebar:after {
+  display: table;
+  content: "";
+}
+/* line 14, ../../sass/partials/global/helpers/_clearfix.scss */
+.layout-panels-sidebar:after {
+  clear: both;
+}
+/* line 25, ../../sass/partials/layout/panels/_sidebar.scss */
+.layout-panels-sidebar .layout-preface,
+.layout-panels-sidebar .layout-main,
+.layout-panels-sidebar .layout-sidebar {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+/* line 9, ../../sass/partials/global/helpers/_clearfix.scss */
+.layout-panels-sidebar .layout-preface:after,
+.layout-panels-sidebar .layout-main:after,
+.layout-panels-sidebar .layout-sidebar:after {
+  display: table;
+  content: "";
+}
+/* line 14, ../../sass/partials/global/helpers/_clearfix.scss */
+.layout-panels-sidebar .layout-preface:after,
+.layout-panels-sidebar .layout-main:after,
+.layout-panels-sidebar .layout-sidebar:after {
+  clear: both;
+}

@@ -1,0 +1,101 @@
+// @file
+// Styles for the mobile menu.
+
+.mobile-menu {
+  @include breakpoint($mobile-menu-bp, $no-query: true) {
+    display: none;
+  }
+}
+
+// Hide navigation region while mobile menu is displayed.
+.region-navigation {
+  display: none;
+
+  @include breakpoint($mobile-menu-bp, $no-query: true) {
+    display: block;
+  }
+}
+
+.mobile-menu__bar {
+  @include background-image(
+    linear-gradient(
+      top,
+      $gradient-light 0%,
+      $gradient-dark 100%
+    )
+  );
+  background-color: $mobile-menu-bg-color-fallback;
+  background-color: $mobile-menu-bg-color;
+  color: $mobile-menu-text-color;
+  height: 3em;
+  padding: 0 0.25em;
+  text-align: right; // LTR
+
+  [dir="rtl"] & {
+    text-align: left;
+  }
+}
+
+.mobile-menu__button {
+  @include background-image(
+    linear-gradient(
+      top,
+      $gradient-light 40%,
+      $gradient-dark 60%
+    )
+  );
+  @include border-radius();
+  @include box-shadow(none);
+  background-color: transparent;
+  border: 2px solid transparent;
+  color: $mobile-menu-text-color;
+  display: inline-block;
+  font-family: $mobile-menu-font-family;
+  font-size: $font-size-normal;
+  font-weight: bold;
+  height: 2.5em;
+  line-height: 2.5;
+  margin: em(4px) 0.25em;
+  padding: 0 0.5em;
+  text-decoration: none;
+
+  &:focus,
+  &:hover,
+  &:active,
+  &.is-active {
+    background-color: $mobile-menu-link-color;
+    border-width: 2px;
+    color: $mobile-menu-text-color;
+    outline: 0;
+  }
+
+  &:focus {
+    border-color: $mobile-menu-text-color;
+  }
+}
+
+.mobile-menu__icon {
+  @include image-replace(26px, 20px);
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  display: inline-block;
+  margin-top: 0.5em;
+}
+
+.mobile-menu__icon--home {
+  @include svg-background(home);
+}
+
+.mobile-menu__icon--menu {
+  @include svg-background(hamburger);
+}
+
+.mobile-menu__links {
+  background-color: $mobile-menu-bg-color-fallback;
+  background-color: $mobile-menu-bg-color;
+  color: $mobile-menu-text-color;
+  padding: 0.5em 0;
+  position: absolute;
+  width: 100%;
+  z-index: 100;
+}

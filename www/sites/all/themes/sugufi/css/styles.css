@@ -748,22 +748,76 @@ ul.panels-ipe-linkbar li {
   margin-left: 30.61224%;
   margin-right: -100%;
 }
+/* line 57, ../sass/partials/layout/_grid.scss */
+.front header .logo {
+  height: 200px;
+  margin: 0 auto;
+  width: 200px;
+}
+/* line 62, ../sass/partials/layout/_grid.scss */
+.front header .block--views--exp-business-page {
+  width: 100%;
+  float: none;
+  overflow: auto;
+  margin: 0;
+}
+
+/* line 71, ../sass/partials/layout/_grid.scss */
+header .logo {
+  width: 17.72152%;
+  float: left;
+  margin-left: 0;
+  margin-right: -100%;
+}
+/* line 74, ../sass/partials/layout/_grid.scss */
+header .block--views--exp-business-page {
+  width: 74.68354%;
+  float: left;
+  margin-left: 25.31646%;
+  margin-right: -100%;
+}
+
+/* line 79, ../sass/partials/layout/_grid.scss */
+.block--views--exp-business-page #views-exposed-form-business-page {
+  width: 81.01266%;
+  float: left;
+  margin-left: 0;
+  margin-right: -100%;
+}
+/* line 81, ../sass/partials/layout/_grid.scss */
+.block--views--exp-business-page #views-exposed-form-business-page .views-widget--filter-field_business_category {
+  width: 28.57143%;
+  float: left;
+  margin-left: 0;
+  margin-right: -100%;
+  width: 30.571%;
+}
+/* line 85, ../sass/partials/layout/_grid.scss */
+.block--views--exp-business-page #views-exposed-form-business-page .views-widget--filter-search_api_views_fulltext {
+  width: 69.38776%;
+  float: left;
+  margin-left: 30.61224%;
+  margin-right: -100%;
+}
+
+/* line 93, ../sass/partials/layout/_grid.scss */
+main .block--views-featured-business-block .content {
+  overflow: auto;
+}
+/* line 95, ../sass/partials/layout/_grid.scss */
+main .block--views-featured-business-block .content .views-row {
+  width: 17.72152%;
+  float: left;
+  margin-right: 1.26582%;
+  margin-right: 0;
+  width: 20%;
+}
 
 /* line 4, ../sass/partials/layout/_page.scss */
 .layout-constrain {
   max-width: 73em;
   margin-left: auto;
   margin-right: auto;
-  background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuMCIgeTE9IjAuNSIgeDI9IjEuMCIgeTI9IjAuNSI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzY2NjZmZiIgc3RvcC1vcGFjaXR5PSIwLjI1Ii8+PHN0b3Agb2Zmc2V0PSI4MCUiIHN0b3AtY29sb3I9IiNiM2IzZmYiIHN0b3Atb3BhY2l0eT0iMC4yNSIvPjxzdG9wIG9mZnNldD0iODAlIiBzdG9wLWNvbG9yPSIjMDAwMDAwIiBzdG9wLW9wYWNpdHk9IjAuMCIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA=='), url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuNSIgeTE9IjAuMCIgeDI9IjAuNSIgeTI9IjEuMCI+PHN0b3Agb2Zmc2V0PSIxMDAlIiBzdG9wLWNvbG9yPSIjMDAwMDAwIiBzdG9wLW9wYWNpdHk9IjAuNSIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iIzAwMDAwMCIgc3RvcC1vcGFjaXR5PSIwLjAiLz48L2xpbmVhckdyYWRpZW50PjwvZGVmcz48cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSJ1cmwoI2dyYWQpIiAvPjwvc3ZnPiA=');
-  background-size: 100%;
-  background-image: -webkit-gradient(linear, 0% 50%, 100% 50%, color-stop(0%, rgba(102, 102, 255, 0.25)), color-stop(80%, rgba(179, 179, 255, 0.25)), color-stop(80%, rgba(0, 0, 0, 0))), -webkit-gradient(linear, 50% 0%, 50% 1, color-stop(100%, rgba(0, 0, 0, 0.5)), color-stop(100%, rgba(0, 0, 0, 0)));
-  background-image: -moz-linear-gradient(left, rgba(102, 102, 255, 0.25), rgba(179, 179, 255, 0.25) 80%, rgba(0, 0, 0, 0) 80%), -moz-linear-gradient(top, rgba(0, 0, 0, 0.5) 1px, rgba(0, 0, 0, 0) 1px);
-  background-image: -webkit-linear-gradient(left, rgba(102, 102, 255, 0.25), rgba(179, 179, 255, 0.25) 80%, rgba(0, 0, 0, 0) 80%), -webkit-linear-gradient(top, rgba(0, 0, 0, 0.5) 1px, rgba(0, 0, 0, 0) 1px);
-  background-image: linear-gradient(to right, rgba(102, 102, 255, 0.25), rgba(179, 179, 255, 0.25) 80%, rgba(0, 0, 0, 0) 80%), linear-gradient(to bottom, rgba(0, 0, 0, 0.5) 1px, rgba(0, 0, 0, 0) 1px);
-  background-size: 6.32911%, 100% 21px;
-  background-origin: content-box, border-box;
-  background-clip: content-box, border-box;
-  background-position: left top;
 }
 /* line 12, ../../../../../../../../../../Users/ousmanesamba/.rvm/gems/ruby-2.2.1/gems/susy-2.2.5/sass/susy/output/support/_clearfix.scss */
 .layout-constrain:after {
@@ -1119,46 +1173,45 @@ input.throbbing {
 /* line 8, ../sass/partials/components/_header.scss */
 .front .logo {
   background-color: #006fc5;
-  height: 200px;
-  margin: 0 auto;
   position: relative;
   text-align: center;
-  width: 200px;
   z-index: 1;
   display: block;
+  float: none;
 }
-/* line 17, ../sass/partials/components/_header.scss */
+/* line 15, ../sass/partials/components/_header.scss */
 .front .logo img {
   margin-top: 120px;
   width: 180px;
 }
-/* line 22, ../sass/partials/components/_header.scss */
+/* line 20, ../sass/partials/components/_header.scss */
 .front .block--sugufi-config-home-message-block {
   color: #efefef;
   font-size: 50px;
   font-weight: 100;
-  margin: 100px 0px 100px 0px;
+  margin: 50px 0px 50px 0px;
   text-align: center;
+  float: none;
 }
-/* line 30, ../sass/partials/components/_header.scss */
+/* line 29, ../sass/partials/components/_header.scss */
 .front .block--views--exp-business-page {
   margin-top: 10px;
 }
-/* line 33, ../sass/partials/components/_header.scss */
+/* line 32, ../sass/partials/components/_header.scss */
 .front .block--views--exp-business-page #views-exposed-form-business-page .views-widget--filter-field_business_category {
   margin-bottom: 0 !important;
 }
-/* line 35, ../sass/partials/components/_header.scss */
+/* line 34, ../sass/partials/components/_header.scss */
 .front .block--views--exp-business-page #views-exposed-form-business-page .views-widget--filter-field_business_category select {
   -moz-border-radius: 20px 0px 0px 20px;
   -webkit-border-radius: 20px;
   border-radius: 20px 0px 0px 20px;
 }
-/* line 39, ../sass/partials/components/_header.scss */
+/* line 38, ../sass/partials/components/_header.scss */
 .front .block--views--exp-business-page #views-exposed-form-business-page .views-widget--filter-search_api_views_fulltext {
   margin-bottom: 0 !important;
 }
-/* line 41, ../sass/partials/components/_header.scss */
+/* line 40, ../sass/partials/components/_header.scss */
 .front .block--views--exp-business-page #views-exposed-form-business-page .views-widget--filter-search_api_views_fulltext input {
   width: 100%;
   padding: 6px;
@@ -1166,11 +1219,11 @@ input.throbbing {
   -webkit-border-radius: 0px;
   border-radius: 0px 20px 20px 0px;
 }
-/* line 46, ../sass/partials/components/_header.scss */
+/* line 45, ../sass/partials/components/_header.scss */
 .front .block--views--exp-business-page #views-exposed-form-business-page .views-widget--filter-search_api_views_fulltext input:focus {
   border: 1px solid #006fc5;
 }
-/* line 52, ../sass/partials/components/_header.scss */
+/* line 51, ../sass/partials/components/_header.scss */
 .front .block--views--exp-business-page .views-exposed-widgets {
   padding: 5px;
   border: 1px solid #ffffff;
@@ -1179,17 +1232,179 @@ input.throbbing {
   -webkit-border-radius: 20px;
   border-radius: 20px;
 }
-/* line 58, ../sass/partials/components/_header.scss */
+/* line 57, ../sass/partials/components/_header.scss */
 .front .block--views--exp-business-page .views-exposed-form .views-exposed-widget {
   padding: 0;
 }
-/* line 62, ../sass/partials/components/_header.scss */
+/* line 61, ../sass/partials/components/_header.scss */
 .front .block--views--exp-business-page .views-wodget {
   margin-right: 0;
 }
-/* line 65, ../sass/partials/components/_header.scss */
+/* line 64, ../sass/partials/components/_header.scss */
 .front .block--views--exp-business-page .views-submit-button {
   display: none;
+}
+
+/* line 70, ../sass/partials/components/_header.scss */
+header {
+  background: #000 url("../images/bggrey.png");
+  height: 200px;
+  margin: 0;
+  width: 100%;
+}
+
+/* line 76, ../sass/partials/components/_header.scss */
+.logo {
+  background-color: #006fc5;
+  height: 200px;
+  margin: 0 auto;
+  position: relative;
+  text-align: center;
+  width: 150px;
+  z-index: 1;
+  display: block;
+}
+/* line 85, ../sass/partials/components/_header.scss */
+.logo a {
+  height: 100%;
+  width: 100%;
+  display: block;
+}
+/* line 90, ../sass/partials/components/_header.scss */
+.logo img {
+  margin-top: 100px;
+  width: 180px;
+}
+
+/* line 95, ../sass/partials/components/_header.scss */
+.block--sugufi-config-home-message-block {
+  color: #efefef;
+  font-size: 50px;
+  font-weight: 100;
+  margin: 100px 0px 100px 0px;
+  text-align: center;
+}
+
+/* line 104, ../sass/partials/components/_header.scss */
+.block--views--exp-business-page {
+  margin-top: 80px;
+}
+/* line 108, ../sass/partials/components/_header.scss */
+.block--views--exp-business-page #views-exposed-form-business-page .views-widget--filter-field_business_category {
+  margin-bottom: 0 !important;
+}
+/* line 110, ../sass/partials/components/_header.scss */
+.block--views--exp-business-page #views-exposed-form-business-page .views-widget--filter-field_business_category select {
+  -moz-border-radius: 20px 0px 0px 20px;
+  -webkit-border-radius: 20px;
+  border-radius: 20px 0px 0px 20px;
+}
+/* line 114, ../sass/partials/components/_header.scss */
+.block--views--exp-business-page #views-exposed-form-business-page .views-widget--filter-search_api_views_fulltext {
+  margin-bottom: 0 !important;
+}
+/* line 116, ../sass/partials/components/_header.scss */
+.block--views--exp-business-page #views-exposed-form-business-page .views-widget--filter-search_api_views_fulltext input {
+  width: 100%;
+  padding: 6px;
+  -moz-border-radius: 0px 20px 20px 0px;
+  -webkit-border-radius: 0px;
+  border-radius: 0px 20px 20px 0px;
+}
+/* line 121, ../sass/partials/components/_header.scss */
+.block--views--exp-business-page #views-exposed-form-business-page .views-widget--filter-search_api_views_fulltext input:focus {
+  border: 1px solid #006fc5;
+}
+/* line 127, ../sass/partials/components/_header.scss */
+.block--views--exp-business-page .views-exposed-widgets {
+  padding: 5px;
+  border: 1px solid #ffffff;
+  background: rgba(255, 255, 255, 0.2);
+  -moz-border-radius: 20px;
+  -webkit-border-radius: 20px;
+  border-radius: 20px;
+}
+/* line 133, ../sass/partials/components/_header.scss */
+.block--views--exp-business-page .views-exposed-form .views-exposed-widget {
+  padding: 0;
+}
+/* line 137, ../sass/partials/components/_header.scss */
+.block--views--exp-business-page .views-wodget {
+  margin-right: 0;
+}
+/* line 140, ../sass/partials/components/_header.scss */
+.block--views--exp-business-page .views-submit-button {
+  display: none;
+}
+
+/* line 2, ../sass/partials/components/_main.scss */
+main .block--views-featured-business-block {
+  padding-top: 10px;
+}
+/* line 4, ../sass/partials/components/_main.scss */
+main .block--views-featured-business-block h2 {
+  background-color: #006fc5;
+  border-bottom: 1px solid #f9f9f9;
+  margin: 0;
+  color: #f9f9f9;
+  height: 50px;
+  padding-top: 5px;
+  text-align: center;
+}
+/* line 16, ../sass/partials/components/_main.scss */
+main .block--views-featured-business-block .content .views-row .views-field-field-image {
+  height: 154px;
+  border-right: 1px solid #f9f9f9;
+}
+/* line 20, ../sass/partials/components/_main.scss */
+main .block--views-featured-business-block .content .views-row .views-field-field-business-category {
+  background-color: #333;
+  color: #efefef;
+  height: 40px;
+  padding-top: 10px;
+  text-align: center;
+  border-right: 1px solid #f9f9f9;
+}
+/* line 27, ../sass/partials/components/_main.scss */
+main .block--views-featured-business-block .content .views-row .views-field-field-business-category a {
+  color: inherit;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+/* line 33, ../sass/partials/components/_main.scss */
+main .block--views-featured-business-block .content .views-row .views-field-title {
+  border-right: 1px solid #bbbbbb;
+  border-left: 1px solid #bbbbbb;
+}
+/* line 36, ../sass/partials/components/_main.scss */
+main .block--views-featured-business-block .content .views-row .views-field-title a {
+  color: #777777;
+  text-decoration: none;
+  text-align: center;
+  display: block;
+  width: 100%;
+}
+/* line 44, ../sass/partials/components/_main.scss */
+main .block--views-featured-business-block .content .views-row .views-field-field-business-adress {
+  padding: 4px;
+  font-size: 0.8em;
+  color: #fd9639;
+  border-bottom: 1px solid #bbbbbb;
+  border-right: 1px solid #bbbbbb;
+  border-left: 1px solid #bbbbbb;
+  overflow: auto;
+}
+/* line 52, ../sass/partials/components/_main.scss */
+main .block--views-featured-business-block .content .views-row .views-field-field-business-adress .addressfield-container, main .block--views-featured-business-block .content .views-row .views-field-field-business-adress .addressfield-container-inline {
+  float: left;
+  display: inline-block;
+  padding-right: 3px;
+}
+/* line 57, ../sass/partials/components/_main.scss */
+main .block--views-featured-business-block .content .views-row .views-field-field-business-adress .country {
+  display: inline-block;
+  padding-right: 3px;
+  float: left;
 }
 
 /* line 4, ../sass/partials/components/_messages.scss */

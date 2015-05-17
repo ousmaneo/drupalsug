@@ -7,13 +7,11 @@
   }
   .logo {
     background-color: #006fc5;
-    height: 200px;
-    margin: 0 auto;
     position: relative;
     text-align: center;
-    width: 200px;
     z-index: 1;
     display: block;
+    float: none;
     img {
       margin-top: 120px;
       width: 180px;
@@ -23,8 +21,9 @@
     color: #efefef;
     font-size: 50px;
     font-weight: 100;
-    margin: 100px 0px 100px 0px;
+    margin: 50px 0px 50px 0px;
     text-align: center;
+    float: none;
 
   }
   .block--views--exp-business-page{
@@ -68,3 +67,77 @@
   }
 }
 
+header {
+  background: #000 url("../images/bggrey.png");
+  height: 200px;
+  margin: 0;
+  width: 100%;
+}
+.logo {
+  background-color: #006fc5;
+  height: 200px;
+  margin: 0 auto;
+  position: relative;
+  text-align: center;
+  width: 150px;
+  z-index: 1;
+  display: block;
+  a{
+    height: 100%;
+    width: 100%;
+    display: block;
+  }
+  img {
+    margin-top: 100px;
+    width: 180px;
+  }
+}
+.block--sugufi-config-home-message-block {
+  color: #efefef;
+  font-size: 50px;
+  font-weight: 100;
+  margin: 100px 0px 100px 0px;
+  text-align: center;
+  ;
+
+}
+.block--views--exp-business-page{
+  margin-top: 80px;
+  #views-exposed-form-business-page{
+
+    .views-widget--filter-field_business_category{
+      margin-bottom: 0 !important;
+      select{
+        @include border-radius(20px 0px 0px 20px);
+      }
+    }
+    .views-widget--filter-search_api_views_fulltext{
+      margin-bottom: 0 !important;
+      input{
+        width: 100%;
+        padding: 6px;
+        @include border-radius(0px 20px 20px 0px);
+      }
+      input:focus{
+        border: 1px solid #006fc5;
+      }
+    }
+  }
+
+  .views-exposed-widgets{
+    padding: 5px ;
+    border: 1px solid #ffffff;
+    background: rgba(#ffffff,0.2);
+    @include border-radius(20px );
+  }
+  .views-exposed-form .views-exposed-widget{
+    padding: 0;
+
+  }
+  .views-wodget{
+    margin-right: 0;
+  }
+  .views-submit-button{
+    display: none;
+  }
+}

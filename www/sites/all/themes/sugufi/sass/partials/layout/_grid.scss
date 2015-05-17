@@ -53,4 +53,50 @@ $gutter-width: 1em;
       }
     }
   }
+  header{
+    .logo{
+      height: 200px;
+      margin: 0 auto;
+      width: 200px;
+    }
+    .block--views--exp-business-page{
+      width: 100%;
+      float: none;
+      overflow: auto;
+      margin: 0;
+    }
+  }
+}
+header{
+  .logo{
+    @include span(3 of 16 at 1);
+  }
+  .block--views--exp-business-page{
+    @include span(12 of 16 at 5);
+  }
+}
+.block--views--exp-business-page{
+  #views-exposed-form-business-page{
+    @include span(13 of 16 at 1);
+    .views-widget--filter-field_business_category{
+      @include span(3 of 10 at 1);
+      width: 30.571%;
+    }
+    .views-widget--filter-search_api_views_fulltext{
+      @include span(7 of 10 at 4);
+    }
+  }
+}
+
+main{
+  .block--views-featured-business-block{
+    .content{
+      overflow: auto;
+      .views-row{
+        @include span(3);
+        margin-right: 0;
+        width: 20%;
+      }
+    }
+  }
 }

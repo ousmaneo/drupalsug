@@ -5,6 +5,7 @@ dependencies[] = date
 dependencies[] = features
 dependencies[] = geocoder
 dependencies[] = geofield
+dependencies[] = jcarousel
 dependencies[] = leaflet
 dependencies[] = strongarm
 dependencies[] = sugufi_business

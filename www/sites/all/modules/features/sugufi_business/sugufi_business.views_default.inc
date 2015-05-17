@@ -392,7 +392,6 @@ function sugufi_business_views_default_views() {
   /* Display: Master */
   $handler = $view->new_display('default', 'Master', 'default');
   $handler->display->display_options['title'] = 'Featured business';
-  $handler->display->display_options['use_more'] = TRUE;
   $handler->display->display_options['use_more_always'] = FALSE;
   $handler->display->display_options['use_more_text'] = 'View all business';
   $handler->display->display_options['link_display'] = 'custom_url';
@@ -404,13 +403,6 @@ function sugufi_business_views_default_views() {
   $handler->display->display_options['pager']['options']['items_per_page'] = '5';
   $handler->display->display_options['style_plugin'] = 'default';
   $handler->display->display_options['row_plugin'] = 'fields';
-  /* Field: Content: Title */
-  $handler->display->display_options['fields']['title']['id'] = 'title';
-  $handler->display->display_options['fields']['title']['table'] = 'node';
-  $handler->display->display_options['fields']['title']['field'] = 'title';
-  $handler->display->display_options['fields']['title']['label'] = '';
-  $handler->display->display_options['fields']['title']['alter']['word_boundary'] = FALSE;
-  $handler->display->display_options['fields']['title']['alter']['ellipsis'] = FALSE;
   /* Field: Content: Image */
   $handler->display->display_options['fields']['field_image']['id'] = 'field_image';
   $handler->display->display_options['fields']['field_image']['table'] = 'field_data_field_image';
@@ -419,7 +411,7 @@ function sugufi_business_views_default_views() {
   $handler->display->display_options['fields']['field_image']['element_label_colon'] = FALSE;
   $handler->display->display_options['fields']['field_image']['click_sort_column'] = 'fid';
   $handler->display->display_options['fields']['field_image']['settings'] = array(
-    'image_style' => 'medium',
+    'image_style' => 'business_list',
     'image_link' => 'content',
   );
   /* Field: Content: Category */
@@ -428,19 +420,43 @@ function sugufi_business_views_default_views() {
   $handler->display->display_options['fields']['field_business_category']['field'] = 'field_business_category';
   $handler->display->display_options['fields']['field_business_category']['label'] = '';
   $handler->display->display_options['fields']['field_business_category']['element_label_colon'] = FALSE;
-  $handler->display->display_options['fields']['field_business_category']['type'] = 'taxonomy_term_reference_plain';
+  $handler->display->display_options['fields']['field_business_category']['delta_limit'] = '1';
   $handler->display->display_options['fields']['field_business_category']['delta_offset'] = '0';
+  /* Field: Content: Title */
+  $handler->display->display_options['fields']['title']['id'] = 'title';
+  $handler->display->display_options['fields']['title']['table'] = 'node';
+  $handler->display->display_options['fields']['title']['field'] = 'title';
+  $handler->display->display_options['fields']['title']['label'] = '';
+  $handler->display->display_options['fields']['title']['alter']['word_boundary'] = FALSE;
+  $handler->display->display_options['fields']['title']['alter']['ellipsis'] = FALSE;
   /* Field: Content: Location */
   $handler->display->display_options['fields']['field_business_adress']['id'] = 'field_business_adress';
   $handler->display->display_options['fields']['field_business_adress']['table'] = 'field_data_field_business_adress';
   $handler->display->display_options['fields']['field_business_adress']['field'] = 'field_business_adress';
   $handler->display->display_options['fields']['field_business_adress']['label'] = '';
+  $handler->display->display_options['fields']['field_business_adress']['alter']['text'] = '[field_business_adress-locality]  , [field_business_adress-country] 
+
+[field_business_adress-administrative_area] 
+[field_business_adress-sub_administrative_area] 
+[field_business_adress-locality] 
+[field_business_adress-dependent_locality] 
+[field_business_adress-postal_code] 
+[field_business_adress-thoroughfare] 
+[field_business_adress-premise] 
+[field_business_adress-sub_premise]
+[field_business_adress-organisation_name]
+[field_business_adress-name_line] 
+[field_business_adress-first_name] 
+[field_business_adress-last_name]
+[field_business_adress-data]';
   $handler->display->display_options['fields']['field_business_adress']['element_label_colon'] = FALSE;
   $handler->display->display_options['fields']['field_business_adress']['click_sort_column'] = 'country';
   $handler->display->display_options['fields']['field_business_adress']['settings'] = array(
-    'use_widget_handlers' => 1,
+    'use_widget_handlers' => 0,
     'format_handlers' => array(
       'address' => 'address',
+      'address-hide-postal-code' => 'address-hide-postal-code',
+      'address-hide-street' => 'address-hide-street',
     ),
   );
   /* Sort criterion: Content: Post date */

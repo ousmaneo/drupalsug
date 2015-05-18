@@ -19,11 +19,22 @@
   }
   .block--sugufi-config-home-message-block {
     color: #efefef;
-    font-size: 50px;
+    font-size: 1.5em;
     font-weight: 100;
     margin: 50px 0px 50px 0px;
     text-align: center;
     float: none;
+    @include breakpoint($small) {
+      font-size:1.5em;
+    }
+
+    @include breakpoint($medium) {
+      font-size: 2em;
+    }
+
+    @include breakpoint($large) {
+      font-size: 3em;
+    }
 
   }
   .block--views--exp-business-page{
@@ -31,17 +42,9 @@
 
       .views-widget--filter-field_business_category{
         margin-bottom: 0 !important;
-        select{
-          @include border-radius(20px 0px 0px 20px);
-        }
       }
       .views-widget--filter-search_api_views_fulltext{
         margin-bottom: 0 !important;
-          input{
-            width: 100%;
-            padding: 6px;
-            @include border-radius(0px 20px 20px 0px);
-          }
           input:focus{
             border: 1px solid #006fc5;
           }
@@ -87,14 +90,11 @@ header {
     width: 100%;
     display: block;
   }
-  img {
-    margin-top: 100px;
-    width: 180px;
-  }
+
 }
 .block--sugufi-config-home-message-block {
   color: #efefef;
-  font-size: 50px;
+  font-size: 3em;
   font-weight: 100;
   margin: 100px 0px 100px 0px;
   text-align: center;
@@ -102,13 +102,34 @@ header {
 
 }
 .block--views--exp-business-page{
-  margin-top: 80px;
   #views-exposed-form-business-page{
-
     .views-widget--filter-field_business_category{
       margin-bottom: 0 !important;
       select{
-        @include border-radius(20px 0px 0px 20px);
+        @include border-radius(20px);
+        width: 100%;
+        @include breakpoint($small) {
+          @include border-radius(20px);
+          width: 100%;
+        }
+
+        @include breakpoint($medium) {
+          @include border-radius(20px 0px 0px 20px);
+          width: 219px;
+          height: 32px;
+          overflow: hidden;
+          font-size: 14px;
+        }
+
+        @include breakpoint($large) {
+          @include border-radius(20px 0px 0px 20px);
+          width: 219px;
+          height: 32px;
+          overflow: hidden;
+          font-size: 14px;
+        }
+
+
       }
     }
     .views-widget--filter-search_api_views_fulltext{
@@ -116,7 +137,19 @@ header {
       input{
         width: 100%;
         padding: 6px;
-        @include border-radius(0px 20px 20px 0px);
+        @include border-radius(20px);
+        @include breakpoint($small) {
+          @include border-radius(20px);
+        }
+
+        @include breakpoint($medium) {
+          @include border-radius(0px 20px 20px 0px);
+        }
+
+        @include breakpoint($large) {
+          @include border-radius(0px 20px 20px 0px);
+        }
+
       }
       input:focus{
         border: 1px solid #006fc5;

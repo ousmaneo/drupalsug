@@ -391,11 +391,6 @@ figure {
   margin: 0 0 1.3125em;
 }
 
-/* line 129, ../sass/partials/base/_html-elements.scss */
-form {
-  margin: 0;
-}
-
 /* line 136, ../sass/partials/base/_html-elements.scss */
 h1, h2, h3, h4, h5, h6 {
   color: #333;
@@ -728,33 +723,188 @@ ul.panels-ipe-linkbar li {
 
 /* line 45, ../sass/partials/layout/_grid.scss */
 .front .block--views--exp-business-page #views-exposed-form-business-page {
-  width: 62.02532%;
-  float: left;
-  margin-left: 18.98734%;
-  margin-right: -100%;
+  width: 100%;
 }
-/* line 47, ../sass/partials/layout/_grid.scss */
+@media (min-width: 500px) {
+  /* line 45, ../sass/partials/layout/_grid.scss */
+  .front .block--views--exp-business-page #views-exposed-form-business-page {
+    width: 100%;
+  }
+}
+@media (min-width: 600px) and (max-width: 900px) {
+  /* line 45, ../sass/partials/layout/_grid.scss */
+  .front .block--views--exp-business-page #views-exposed-form-business-page {
+    width: 83.05085%;
+    float: left;
+    margin-left: 8.47458%;
+    margin-right: -100%;
+  }
+}
+@media (min-width: 900px) {
+  /* line 45, ../sass/partials/layout/_grid.scss */
+  .front .block--views--exp-business-page #views-exposed-form-business-page {
+    width: 62.02532%;
+    float: left;
+    margin-left: 18.98734%;
+    margin-right: -100%;
+  }
+}
+/* line 60, ../sass/partials/layout/_grid.scss */
 .front .block--views--exp-business-page #views-exposed-form-business-page .views-widget--filter-field_business_category {
-  width: 28.57143%;
-  float: left;
-  margin-left: 0;
-  margin-right: -100%;
-  width: 30.571%;
+  width: 100%;
+  *zoom: 1;
+  margin: 0;
 }
-/* line 51, ../sass/partials/layout/_grid.scss */
+/* line 9, ../sass/partials/global/helpers/_clearfix.scss */
+.front .block--views--exp-business-page #views-exposed-form-business-page .views-widget--filter-field_business_category:after {
+  display: table;
+  content: "";
+}
+/* line 14, ../sass/partials/global/helpers/_clearfix.scss */
+.front .block--views--exp-business-page #views-exposed-form-business-page .views-widget--filter-field_business_category:after {
+  clear: both;
+}
+@media (min-width: 500px) {
+  /* line 60, ../sass/partials/layout/_grid.scss */
+  .front .block--views--exp-business-page #views-exposed-form-business-page .views-widget--filter-field_business_category {
+    width: 100%;
+    margin: 0;
+    *zoom: 1;
+  }
+  /* line 9, ../sass/partials/global/helpers/_clearfix.scss */
+  .front .block--views--exp-business-page #views-exposed-form-business-page .views-widget--filter-field_business_category:after {
+    display: table;
+    content: "";
+  }
+  /* line 14, ../sass/partials/global/helpers/_clearfix.scss */
+  .front .block--views--exp-business-page #views-exposed-form-business-page .views-widget--filter-field_business_category:after {
+    clear: both;
+  }
+}
+@media (min-width: 600px) and (max-width: 900px) {
+  /* line 60, ../sass/partials/layout/_grid.scss */
+  .front .block--views--exp-business-page #views-exposed-form-business-page .views-widget--filter-field_business_category {
+    width: 28.57143%;
+    float: left;
+    margin-left: 0;
+    margin-right: -100%;
+    width: 30.571%;
+  }
+}
+@media (min-width: 900px) {
+  /* line 60, ../sass/partials/layout/_grid.scss */
+  .front .block--views--exp-business-page #views-exposed-form-business-page .views-widget--filter-field_business_category {
+    width: 28.57143%;
+    float: left;
+    margin-left: 0;
+    margin-right: -100%;
+    width: 30.571%;
+  }
+}
+/* line 81, ../sass/partials/layout/_grid.scss */
 .front .block--views--exp-business-page #views-exposed-form-business-page .views-widget--filter-search_api_views_fulltext {
-  width: 69.38776%;
-  float: left;
-  margin-left: 30.61224%;
-  margin-right: -100%;
+  width: 100%;
+  *zoom: 1;
+  margin: 0;
 }
-/* line 57, ../sass/partials/layout/_grid.scss */
+/* line 9, ../sass/partials/global/helpers/_clearfix.scss */
+.front .block--views--exp-business-page #views-exposed-form-business-page .views-widget--filter-search_api_views_fulltext:after {
+  display: table;
+  content: "";
+}
+/* line 14, ../sass/partials/global/helpers/_clearfix.scss */
+.front .block--views--exp-business-page #views-exposed-form-business-page .views-widget--filter-search_api_views_fulltext:after {
+  clear: both;
+}
+@media (min-width: 500px) {
+  /* line 81, ../sass/partials/layout/_grid.scss */
+  .front .block--views--exp-business-page #views-exposed-form-business-page .views-widget--filter-search_api_views_fulltext {
+    width: 100%;
+    margin: 0;
+    *zoom: 1;
+  }
+  /* line 9, ../sass/partials/global/helpers/_clearfix.scss */
+  .front .block--views--exp-business-page #views-exposed-form-business-page .views-widget--filter-search_api_views_fulltext:after {
+    display: table;
+    content: "";
+  }
+  /* line 14, ../sass/partials/global/helpers/_clearfix.scss */
+  .front .block--views--exp-business-page #views-exposed-form-business-page .views-widget--filter-search_api_views_fulltext:after {
+    clear: both;
+  }
+}
+@media (min-width: 600px) and (max-width: 900px) {
+  /* line 81, ../sass/partials/layout/_grid.scss */
+  .front .block--views--exp-business-page #views-exposed-form-business-page .views-widget--filter-search_api_views_fulltext {
+    width: 69.38776%;
+    float: left;
+    margin-left: 30.61224%;
+    margin-right: -100%;
+  }
+}
+@media (min-width: 900px) {
+  /* line 81, ../sass/partials/layout/_grid.scss */
+  .front .block--views--exp-business-page #views-exposed-form-business-page .views-widget--filter-search_api_views_fulltext {
+    width: 69.38776%;
+    float: left;
+    margin-left: 30.61224%;
+    margin-right: -100%;
+  }
+}
+/* line 102, ../sass/partials/layout/_grid.scss */
 .front header .logo {
-  height: 200px;
+  height: 100px;
   margin: 0 auto;
-  width: 200px;
+  width: 100px;
 }
-/* line 62, ../sass/partials/layout/_grid.scss */
+@media (min-width: 500px) {
+  /* line 102, ../sass/partials/layout/_grid.scss */
+  .front header .logo {
+    height: 100px;
+    width: 100px;
+  }
+}
+@media (min-width: 600px) and (max-width: 900px) {
+  /* line 102, ../sass/partials/layout/_grid.scss */
+  .front header .logo {
+    height: 150px;
+    width: 150px;
+  }
+}
+@media (min-width: 900px) {
+  /* line 102, ../sass/partials/layout/_grid.scss */
+  .front header .logo {
+    height: 200px;
+    width: 200px;
+  }
+}
+/* line 120, ../sass/partials/layout/_grid.scss */
+.front header .logo img {
+  margin-top: 60px;
+  width: 180px;
+}
+@media (min-width: 500px) {
+  /* line 120, ../sass/partials/layout/_grid.scss */
+  .front header .logo img {
+    margin-top: 60px;
+    width: 180px;
+  }
+}
+@media (min-width: 600px) and (max-width: 900px) {
+  /* line 120, ../sass/partials/layout/_grid.scss */
+  .front header .logo img {
+    margin-top: 100px;
+    width: 120px;
+  }
+}
+@media (min-width: 900px) {
+  /* line 120, ../sass/partials/layout/_grid.scss */
+  .front header .logo img {
+    margin-top: 100px;
+    width: 180px;
+  }
+}
+/* line 139, ../sass/partials/layout/_grid.scss */
 .front header .block--views--exp-business-page {
   width: 100%;
   float: none;
@@ -762,55 +912,335 @@ ul.panels-ipe-linkbar li {
   margin: 0;
 }
 
-/* line 71, ../sass/partials/layout/_grid.scss */
+/* line 148, ../sass/partials/layout/_grid.scss */
 header .logo {
-  width: 17.72152%;
-  float: left;
-  margin-left: 0;
-  margin-right: -100%;
+  height: 100px;
+  margin: 0 auto;
+  width: 100px;
 }
-/* line 74, ../sass/partials/layout/_grid.scss */
+@media (min-width: 500px) {
+  /* line 148, ../sass/partials/layout/_grid.scss */
+  header .logo {
+    height: 100px;
+    margin: 0 auto;
+    width: 100px;
+  }
+}
+@media (min-width: 600px) and (max-width: 900px) {
+  /* line 148, ../sass/partials/layout/_grid.scss */
+  header .logo {
+    width: 17.72152%;
+    float: left;
+    margin-left: 0;
+    margin-right: -100%;
+    height: 100px;
+  }
+}
+@media (min-width: 900px) {
+  /* line 148, ../sass/partials/layout/_grid.scss */
+  header .logo {
+    width: 17.72152%;
+    float: left;
+    margin-left: 0;
+    margin-right: -100%;
+    height: 200px;
+  }
+}
+/* line 168, ../sass/partials/layout/_grid.scss */
 header .block--views--exp-business-page {
-  width: 74.68354%;
-  float: left;
-  margin-left: 25.31646%;
-  margin-right: -100%;
+  width: 100%;
+}
+@media (min-width: 500px) {
+  /* line 168, ../sass/partials/layout/_grid.scss */
+  header .block--views--exp-business-page {
+    width: 100%;
+  }
+}
+@media (min-width: 600px) and (max-width: 900px) {
+  /* line 168, ../sass/partials/layout/_grid.scss */
+  header .block--views--exp-business-page {
+    width: 74.68354%;
+    float: left;
+    margin-left: 25.31646%;
+    margin-right: -100%;
+  }
+}
+@media (min-width: 900px) {
+  /* line 168, ../sass/partials/layout/_grid.scss */
+  header .block--views--exp-business-page {
+    width: 74.68354%;
+    float: left;
+    margin-left: 25.31646%;
+    margin-right: -100%;
+  }
 }
 
-/* line 79, ../sass/partials/layout/_grid.scss */
+/* line 182, ../sass/partials/layout/_grid.scss */
+.block--views--exp-business-page {
+  margin-top: 5px;
+}
+@media (min-width: 500px) {
+  /* line 182, ../sass/partials/layout/_grid.scss */
+  .block--views--exp-business-page {
+    margin-top: 5px;
+  }
+}
+@media (min-width: 600px) and (max-width: 900px) {
+  /* line 182, ../sass/partials/layout/_grid.scss */
+  .block--views--exp-business-page {
+    margin-top: 80px;
+  }
+}
+@media (min-width: 900px) {
+  /* line 182, ../sass/partials/layout/_grid.scss */
+  .block--views--exp-business-page {
+    margin-top: 80px;
+  }
+}
+/* line 195, ../sass/partials/layout/_grid.scss */
 .block--views--exp-business-page #views-exposed-form-business-page {
-  width: 81.01266%;
-  float: left;
-  margin-left: 0;
-  margin-right: -100%;
+  width: 100%;
 }
-/* line 81, ../sass/partials/layout/_grid.scss */
+@media (min-width: 500px) {
+  /* line 195, ../sass/partials/layout/_grid.scss */
+  .block--views--exp-business-page #views-exposed-form-business-page {
+    width: 100%;
+  }
+}
+@media (min-width: 600px) and (max-width: 900px) {
+  /* line 195, ../sass/partials/layout/_grid.scss */
+  .block--views--exp-business-page #views-exposed-form-business-page {
+    width: 81.01266%;
+    float: left;
+    margin-left: 0;
+    margin-right: -100%;
+  }
+}
+@media (min-width: 900px) {
+  /* line 195, ../sass/partials/layout/_grid.scss */
+  .block--views--exp-business-page #views-exposed-form-business-page {
+    width: 81.01266%;
+    float: left;
+    margin-left: 0;
+    margin-right: -100%;
+  }
+}
+/* line 207, ../sass/partials/layout/_grid.scss */
 .block--views--exp-business-page #views-exposed-form-business-page .views-widget--filter-field_business_category {
-  width: 28.57143%;
-  float: left;
-  margin-left: 0;
-  margin-right: -100%;
-  width: 30.571%;
+  width: 100%;
+  *zoom: 1;
+  margin: 0;
 }
-/* line 85, ../sass/partials/layout/_grid.scss */
+/* line 9, ../sass/partials/global/helpers/_clearfix.scss */
+.block--views--exp-business-page #views-exposed-form-business-page .views-widget--filter-field_business_category:after {
+  display: table;
+  content: "";
+}
+/* line 14, ../sass/partials/global/helpers/_clearfix.scss */
+.block--views--exp-business-page #views-exposed-form-business-page .views-widget--filter-field_business_category:after {
+  clear: both;
+}
+@media (min-width: 500px) {
+  /* line 207, ../sass/partials/layout/_grid.scss */
+  .block--views--exp-business-page #views-exposed-form-business-page .views-widget--filter-field_business_category {
+    width: 100%;
+    margin: 0;
+    *zoom: 1;
+  }
+  /* line 9, ../sass/partials/global/helpers/_clearfix.scss */
+  .block--views--exp-business-page #views-exposed-form-business-page .views-widget--filter-field_business_category:after {
+    display: table;
+    content: "";
+  }
+  /* line 14, ../sass/partials/global/helpers/_clearfix.scss */
+  .block--views--exp-business-page #views-exposed-form-business-page .views-widget--filter-field_business_category:after {
+    clear: both;
+  }
+}
+@media (min-width: 600px) and (max-width: 900px) {
+  /* line 207, ../sass/partials/layout/_grid.scss */
+  .block--views--exp-business-page #views-exposed-form-business-page .views-widget--filter-field_business_category {
+    width: 28.57143%;
+    float: left;
+    margin-left: 0;
+    margin-right: -100%;
+    width: 30.571%;
+  }
+}
+@media (min-width: 900px) {
+  /* line 207, ../sass/partials/layout/_grid.scss */
+  .block--views--exp-business-page #views-exposed-form-business-page .views-widget--filter-field_business_category {
+    width: 28.57143%;
+    float: left;
+    margin-left: 0;
+    margin-right: -100%;
+    width: 30.571%;
+  }
+}
+/* line 227, ../sass/partials/layout/_grid.scss */
 .block--views--exp-business-page #views-exposed-form-business-page .views-widget--filter-search_api_views_fulltext {
-  width: 69.38776%;
-  float: left;
-  margin-left: 30.61224%;
-  margin-right: -100%;
+  width: 100%;
+  *zoom: 1;
+  margin: 0;
+}
+/* line 9, ../sass/partials/global/helpers/_clearfix.scss */
+.block--views--exp-business-page #views-exposed-form-business-page .views-widget--filter-search_api_views_fulltext:after {
+  display: table;
+  content: "";
+}
+/* line 14, ../sass/partials/global/helpers/_clearfix.scss */
+.block--views--exp-business-page #views-exposed-form-business-page .views-widget--filter-search_api_views_fulltext:after {
+  clear: both;
+}
+@media (min-width: 500px) {
+  /* line 227, ../sass/partials/layout/_grid.scss */
+  .block--views--exp-business-page #views-exposed-form-business-page .views-widget--filter-search_api_views_fulltext {
+    width: 100%;
+    margin: 0;
+    *zoom: 1;
+  }
+  /* line 9, ../sass/partials/global/helpers/_clearfix.scss */
+  .block--views--exp-business-page #views-exposed-form-business-page .views-widget--filter-search_api_views_fulltext:after {
+    display: table;
+    content: "";
+  }
+  /* line 14, ../sass/partials/global/helpers/_clearfix.scss */
+  .block--views--exp-business-page #views-exposed-form-business-page .views-widget--filter-search_api_views_fulltext:after {
+    clear: both;
+  }
+}
+@media (min-width: 600px) and (max-width: 900px) {
+  /* line 227, ../sass/partials/layout/_grid.scss */
+  .block--views--exp-business-page #views-exposed-form-business-page .views-widget--filter-search_api_views_fulltext {
+    width: 69.38776%;
+    float: left;
+    margin-left: 30.61224%;
+    margin-right: -100%;
+  }
+}
+@media (min-width: 900px) {
+  /* line 227, ../sass/partials/layout/_grid.scss */
+  .block--views--exp-business-page #views-exposed-form-business-page .views-widget--filter-search_api_views_fulltext {
+    width: 69.38776%;
+    float: left;
+    margin-left: 30.61224%;
+    margin-right: -100%;
+  }
 }
 
-/* line 93, ../sass/partials/layout/_grid.scss */
+/* line 251, ../sass/partials/layout/_grid.scss */
 main .block--views-featured-business-block .content {
   overflow: auto;
 }
-/* line 95, ../sass/partials/layout/_grid.scss */
+/* line 253, ../sass/partials/layout/_grid.scss */
 main .block--views-featured-business-block .content .views-row {
-  width: 17.72152%;
+  margin: 0 auto;
+  width: 234px;
+}
+@media (min-width: 500px) {
+  /* line 253, ../sass/partials/layout/_grid.scss */
+  main .block--views-featured-business-block .content .views-row {
+    width: 17.72152%;
+    float: left;
+    margin-right: 1.26582%;
+    width: 234px;
+    margin-left: 5%;
+  }
+}
+@media (min-width: 600px) and (max-width: 900px) {
+  /* line 253, ../sass/partials/layout/_grid.scss */
+  main .block--views-featured-business-block .content .views-row {
+    width: 17.72152%;
+    float: left;
+    margin-right: 1.26582%;
+    width: 234px;
+    margin-left: 4%;
+  }
+}
+@media (min-width: 900px) {
+  /* line 253, ../sass/partials/layout/_grid.scss */
+  main .block--views-featured-business-block .content .views-row {
+    width: 17.72152%;
+    float: left;
+    margin-right: 1.26582%;
+    margin-right: 0;
+    margin-left: 0;
+    width: 20%;
+  }
+}
+/* line 283, ../sass/partials/layout/_grid.scss */
+main .block--views-event-block .jcarousel-skin-default .jcarousel-item {
+  width: 330px;
+  margin-left: 5px;
+  margin: 0;
+}
+@media (min-width: 500px) {
+  /* line 283, ../sass/partials/layout/_grid.scss */
+  main .block--views-event-block .jcarousel-skin-default .jcarousel-item {
+    width: 330px;
+  }
+}
+@media (min-width: 600px) and (max-width: 900px) {
+  /* line 283, ../sass/partials/layout/_grid.scss */
+  main .block--views-event-block .jcarousel-skin-default .jcarousel-item {
+    width: 400px;
+  }
+}
+@media (min-width: 900px) {
+  /* line 283, ../sass/partials/layout/_grid.scss */
+  main .block--views-event-block .jcarousel-skin-default .jcarousel-item {
+    width: 565px;
+  }
+}
+/* line 299, ../sass/partials/layout/_grid.scss */
+main .block--views-event-block .jcarousel-skin-default .jcarousel-item .views-field-nothing .icone {
   float: left;
-  margin-right: 1.26582%;
-  margin-right: 0;
-  width: 20%;
+  height: 150px;
+  padding-top: 40px;
+  width: 26.1%;
+}
+/* line 305, ../sass/partials/layout/_grid.scss */
+main .block--views-event-block .jcarousel-skin-default .jcarousel-item .views-field-nothing .eventdetail {
+  padding-top: 10px;
+}
+/* line 307, ../sass/partials/layout/_grid.scss */
+main .block--views-event-block .jcarousel-skin-default .jcarousel-item .views-field-nothing .eventdetail .titledate {
+  color: #0956f4;
+  font-size: 1.2em;
+  padding: 10px 0;
+}
+/* line 312, ../sass/partials/layout/_grid.scss */
+main .block--views-event-block .jcarousel-skin-default .jcarousel-item .views-field-nothing .eventdetail .description {
+  font-size: 0.8em;
+}
+
+/* line 322, ../sass/partials/layout/_grid.scss */
+.footer .block--sugufi-config {
+  width: 100%;
+}
+@media (min-width: 500px) {
+  /* line 322, ../sass/partials/layout/_grid.scss */
+  .footer .block--sugufi-config {
+    width: 100%;
+  }
+}
+@media (min-width: 600px) and (max-width: 900px) {
+  /* line 322, ../sass/partials/layout/_grid.scss */
+  .footer .block--sugufi-config {
+    width: 17.72152%;
+    float: left;
+    margin-left: 75.94937%;
+    margin-right: -100%;
+  }
+}
+@media (min-width: 900px) {
+  /* line 322, ../sass/partials/layout/_grid.scss */
+  .footer .block--sugufi-config {
+    width: 17.72152%;
+    float: left;
+    margin-left: 75.94937%;
+    margin-right: -100%;
+  }
 }
 
 /* line 4, ../sass/partials/layout/_page.scss */
@@ -1093,10 +1523,6 @@ input.throbbing {
 }
 /* line 9, ../sass/partials/components/_footer.scss */
 .footer .block--sugufi-config {
-  width: 17.72152%;
-  float: left;
-  margin-left: 75.94937%;
-  margin-right: -100%;
   padding-top: 20px;
 }
 /* line 12, ../sass/partials/components/_footer.scss */
@@ -1233,43 +1659,47 @@ input.throbbing {
 /* line 20, ../sass/partials/components/_header.scss */
 .front .block--sugufi-config-home-message-block {
   color: #efefef;
-  font-size: 50px;
+  font-size: 1.5em;
   font-weight: 100;
   margin: 50px 0px 50px 0px;
   text-align: center;
   float: none;
 }
-/* line 29, ../sass/partials/components/_header.scss */
+@media (min-width: 500px) {
+  /* line 20, ../sass/partials/components/_header.scss */
+  .front .block--sugufi-config-home-message-block {
+    font-size: 1.5em;
+  }
+}
+@media (min-width: 600px) and (max-width: 900px) {
+  /* line 20, ../sass/partials/components/_header.scss */
+  .front .block--sugufi-config-home-message-block {
+    font-size: 2em;
+  }
+}
+@media (min-width: 900px) {
+  /* line 20, ../sass/partials/components/_header.scss */
+  .front .block--sugufi-config-home-message-block {
+    font-size: 3em;
+  }
+}
+/* line 40, ../sass/partials/components/_header.scss */
 .front .block--views--exp-business-page {
   margin-top: 10px;
 }
-/* line 32, ../sass/partials/components/_header.scss */
+/* line 43, ../sass/partials/components/_header.scss */
 .front .block--views--exp-business-page #views-exposed-form-business-page .views-widget--filter-field_business_category {
   margin-bottom: 0 !important;
 }
-/* line 34, ../sass/partials/components/_header.scss */
-.front .block--views--exp-business-page #views-exposed-form-business-page .views-widget--filter-field_business_category select {
-  -moz-border-radius: 20px 0px 0px 20px;
-  -webkit-border-radius: 20px;
-  border-radius: 20px 0px 0px 20px;
-}
-/* line 38, ../sass/partials/components/_header.scss */
+/* line 46, ../sass/partials/components/_header.scss */
 .front .block--views--exp-business-page #views-exposed-form-business-page .views-widget--filter-search_api_views_fulltext {
   margin-bottom: 0 !important;
 }
-/* line 40, ../sass/partials/components/_header.scss */
-.front .block--views--exp-business-page #views-exposed-form-business-page .views-widget--filter-search_api_views_fulltext input {
-  width: 100%;
-  padding: 6px;
-  -moz-border-radius: 0px 20px 20px 0px;
-  -webkit-border-radius: 0px;
-  border-radius: 0px 20px 20px 0px;
-}
-/* line 45, ../sass/partials/components/_header.scss */
+/* line 48, ../sass/partials/components/_header.scss */
 .front .block--views--exp-business-page #views-exposed-form-business-page .views-widget--filter-search_api_views_fulltext input:focus {
   border: 1px solid #006fc5;
 }
-/* line 51, ../sass/partials/components/_header.scss */
+/* line 54, ../sass/partials/components/_header.scss */
 .front .block--views--exp-business-page .views-exposed-widgets {
   padding: 5px;
   border: 1px solid #ffffff;
@@ -1278,20 +1708,20 @@ input.throbbing {
   -webkit-border-radius: 20px;
   border-radius: 20px;
 }
-/* line 57, ../sass/partials/components/_header.scss */
+/* line 60, ../sass/partials/components/_header.scss */
 .front .block--views--exp-business-page .views-exposed-form .views-exposed-widget {
   padding: 0;
 }
-/* line 61, ../sass/partials/components/_header.scss */
+/* line 64, ../sass/partials/components/_header.scss */
 .front .block--views--exp-business-page .views-wodget {
   margin-right: 0;
 }
-/* line 64, ../sass/partials/components/_header.scss */
+/* line 67, ../sass/partials/components/_header.scss */
 .front .block--views--exp-business-page .views-submit-button {
   display: none;
 }
 
-/* line 70, ../sass/partials/components/_header.scss */
+/* line 73, ../sass/partials/components/_header.scss */
 header {
   background: #000 url("../images/bggrey.png");
   height: 200px;
@@ -1299,7 +1729,7 @@ header {
   width: 100%;
 }
 
-/* line 76, ../sass/partials/components/_header.scss */
+/* line 79, ../sass/partials/components/_header.scss */
 .logo {
   background-color: #006fc5;
   height: 200px;
@@ -1310,58 +1740,107 @@ header {
   z-index: 1;
   display: block;
 }
-/* line 85, ../sass/partials/components/_header.scss */
+/* line 88, ../sass/partials/components/_header.scss */
 .logo a {
   height: 100%;
   width: 100%;
   display: block;
 }
-/* line 90, ../sass/partials/components/_header.scss */
-.logo img {
-  margin-top: 100px;
-  width: 180px;
-}
 
 /* line 95, ../sass/partials/components/_header.scss */
 .block--sugufi-config-home-message-block {
   color: #efefef;
-  font-size: 50px;
+  font-size: 3em;
   font-weight: 100;
   margin: 100px 0px 100px 0px;
   text-align: center;
 }
 
-/* line 104, ../sass/partials/components/_header.scss */
-.block--views--exp-business-page {
-  margin-top: 80px;
-}
-/* line 108, ../sass/partials/components/_header.scss */
+/* line 106, ../sass/partials/components/_header.scss */
 .block--views--exp-business-page #views-exposed-form-business-page .views-widget--filter-field_business_category {
   margin-bottom: 0 !important;
 }
-/* line 110, ../sass/partials/components/_header.scss */
+/* line 108, ../sass/partials/components/_header.scss */
 .block--views--exp-business-page #views-exposed-form-business-page .views-widget--filter-field_business_category select {
-  -moz-border-radius: 20px 0px 0px 20px;
+  -moz-border-radius: 20px;
   -webkit-border-radius: 20px;
-  border-radius: 20px 0px 0px 20px;
+  border-radius: 20px;
+  width: 100%;
 }
-/* line 114, ../sass/partials/components/_header.scss */
+@media (min-width: 500px) {
+  /* line 108, ../sass/partials/components/_header.scss */
+  .block--views--exp-business-page #views-exposed-form-business-page .views-widget--filter-field_business_category select {
+    -moz-border-radius: 20px;
+    -webkit-border-radius: 20px;
+    border-radius: 20px;
+    width: 100%;
+  }
+}
+@media (min-width: 600px) and (max-width: 900px) {
+  /* line 108, ../sass/partials/components/_header.scss */
+  .block--views--exp-business-page #views-exposed-form-business-page .views-widget--filter-field_business_category select {
+    -moz-border-radius: 20px 0px 0px 20px;
+    -webkit-border-radius: 20px;
+    border-radius: 20px 0px 0px 20px;
+    width: 219px;
+    height: 32px;
+    overflow: hidden;
+    font-size: 14px;
+  }
+}
+@media (min-width: 900px) {
+  /* line 108, ../sass/partials/components/_header.scss */
+  .block--views--exp-business-page #views-exposed-form-business-page .views-widget--filter-field_business_category select {
+    -moz-border-radius: 20px 0px 0px 20px;
+    -webkit-border-radius: 20px;
+    border-radius: 20px 0px 0px 20px;
+    width: 219px;
+    height: 32px;
+    overflow: hidden;
+    font-size: 14px;
+  }
+}
+/* line 135, ../sass/partials/components/_header.scss */
 .block--views--exp-business-page #views-exposed-form-business-page .views-widget--filter-search_api_views_fulltext {
   margin-bottom: 0 !important;
 }
-/* line 116, ../sass/partials/components/_header.scss */
+/* line 137, ../sass/partials/components/_header.scss */
 .block--views--exp-business-page #views-exposed-form-business-page .views-widget--filter-search_api_views_fulltext input {
   width: 100%;
   padding: 6px;
-  -moz-border-radius: 0px 20px 20px 0px;
-  -webkit-border-radius: 0px;
-  border-radius: 0px 20px 20px 0px;
+  -moz-border-radius: 20px;
+  -webkit-border-radius: 20px;
+  border-radius: 20px;
 }
-/* line 121, ../sass/partials/components/_header.scss */
+@media (min-width: 500px) {
+  /* line 137, ../sass/partials/components/_header.scss */
+  .block--views--exp-business-page #views-exposed-form-business-page .views-widget--filter-search_api_views_fulltext input {
+    -moz-border-radius: 20px;
+    -webkit-border-radius: 20px;
+    border-radius: 20px;
+  }
+}
+@media (min-width: 600px) and (max-width: 900px) {
+  /* line 137, ../sass/partials/components/_header.scss */
+  .block--views--exp-business-page #views-exposed-form-business-page .views-widget--filter-search_api_views_fulltext input {
+    -moz-border-radius: 0px 20px 20px 0px;
+    -webkit-border-radius: 0px;
+    border-radius: 0px 20px 20px 0px;
+  }
+}
+@media (min-width: 900px) {
+  /* line 137, ../sass/partials/components/_header.scss */
+  .block--views--exp-business-page #views-exposed-form-business-page .views-widget--filter-search_api_views_fulltext input {
+    -moz-border-radius: 0px 20px 20px 0px;
+    -webkit-border-radius: 0px;
+    border-radius: 0px 20px 20px 0px;
+  }
+}
+/* line 154, ../sass/partials/components/_header.scss */
 .block--views--exp-business-page #views-exposed-form-business-page .views-widget--filter-search_api_views_fulltext input:focus {
   border: 1px solid #006fc5;
 }
-/* line 127, ../sass/partials/components/_header.scss */
+/* line 160, ../sass/partials/components/_header.scss */
 .block--views--exp-business-page .views-exposed-widgets {
   padding: 5px;
   border: 1px solid #ffffff;
@@ -1370,15 +1849,15 @@ header {
   -webkit-border-radius: 20px;
   border-radius: 20px;
 }
-/* line 133, ../sass/partials/components/_header.scss */
+/* line 166, ../sass/partials/components/_header.scss */
 .block--views--exp-business-page .views-exposed-form .views-exposed-widget {
   padding: 0;
 }
-/* line 137, ../sass/partials/components/_header.scss */
+/* line 170, ../sass/partials/components/_header.scss */
 .block--views--exp-business-page .views-wodget {
   margin-right: 0;
 }
-/* line 140, ../sass/partials/components/_header.scss */
+/* line 173, ../sass/partials/components/_header.scss */
 .block--views--exp-business-page .views-submit-button {
   display: none;
 }
@@ -1513,7 +1992,6 @@ main .block--views-event-block .jcarousel-skin-default .jcarousel-clip-horizonta
 }
 /* line 117, ../sass/partials/components/_main.scss */
 main .block--views-event-block .jcarousel-skin-default .jcarousel-item {
-  width: 400px;
   height: auto;
   border: none;
 }

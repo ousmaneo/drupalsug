@@ -2,8 +2,30 @@
 // to load, uncomment the call to this file in sugufi.info
 
 (function ($) {
+    'use strict';
+    Drupal.behaviors.ResponsiveCarousel ={
+        attach:function(){
+            var $postcarousel = $('.jcarousel');
+            if( $postcarousel.length) {
+                $postcarousel.jcarousel({
+                    animation : 500,
+                    setupCallback: function(carousel) {
+                        carousel.reload();
+                    },
+                    reloadCallback: function(carousel) {
 
-  'use strict';
+                        var width = $(window).width();
+                        if (width < 600) {
+                            width = width / 2;
+                            $(this).jcarousel('items').css('width', width + 'px');
+                        }
+
+                    }
+                });
+            }
+        }
+    }
+
 
   // Generic function that runs on window resize.
   function resizeStuff() {

@@ -43,21 +43,98 @@ $gutter-width: 1em;
 .front{
   .block--views--exp-business-page{
     #views-exposed-form-business-page{
-      @include span(10 of 16 at 4);
+      width: 100%;
+
+      @include breakpoint($small) {
+        width: 100%;
+      }
+
+      @include breakpoint($medium) {
+        @include span(10 of 12 at 2);
+      }
+
+      @include breakpoint($large) {
+        @include span(10 of 16 at 4);
+      }
+
       .views-widget--filter-field_business_category{
-        @include span(3 of 10 at 1);
-        width: 30.571%;
+        width: 100%;
+        @include clearfix;
+        margin:0;
+        @include breakpoint($small) {
+          width: 100%;
+          margin:0;
+          @include clearfix;
+        }
+
+        @include breakpoint($medium) {
+          @include span(3 of 10 at 1);
+          width: 30.571%;
+        }
+
+        @include breakpoint($large) {
+          @include span(3 of 10 at 1);
+          width: 30.571%;
+        }
+
       }
       .views-widget--filter-search_api_views_fulltext{
-        @include span(7 of 10 at 4);
+        width: 100%;
+        @include clearfix;
+        margin:0;
+        @include breakpoint($small) {
+          width: 100%;
+          margin:0;
+          @include clearfix;
+        }
+
+        @include breakpoint($medium) {
+          @include span(7 of 10 at 4);
+        }
+
+        @include breakpoint($large) {
+          @include span(7 of 10 at 4);
+        }
       }
     }
   }
   header{
     .logo{
-      height: 200px;
+      height: 100px;
       margin: 0 auto;
-      width: 200px;
+      width: 100px;
+      @include breakpoint($small) {
+        height: 100px;
+        width: 100px;
+      }
+
+      @include breakpoint($medium) {
+        height: 150px;
+        width: 150px;
+      }
+
+      @include breakpoint($large) {
+        height: 200px;
+        width: 200px;
+      }
+      img {
+        margin-top: 60px;
+        width: 180px;
+        @include breakpoint($small) {
+          margin-top: 60px;
+          width: 180px;
+        }
+
+        @include breakpoint($medium) {
+          margin-top: 100px;
+          width: 120px;
+        }
+
+        @include breakpoint($large) {
+          margin-top: 100px;
+          width: 180px;
+        }
+      }
     }
     .block--views--exp-business-page{
       width: 100%;
@@ -69,21 +146,102 @@ $gutter-width: 1em;
 }
 header{
   .logo{
-    @include span(3 of 16 at 1);
+    height: 100px;
+    margin: 0 auto;
+    width: 100px;
+    @include breakpoint($small) {
+      height: 100px;
+      margin: 0 auto;
+      width: 100px;
+    }
+
+    @include breakpoint($medium) {
+      @include span(3 of 16 at 1);
+      height: 100px;
+    }
+
+    @include breakpoint($large) {
+      @include span(3 of 16 at 1);
+      height: 200px;
+    }
   }
   .block--views--exp-business-page{
-    @include span(12 of 16 at 5);
+    width: 100%;
+    @include breakpoint($small) {
+      width: 100%;
+    }
+    @include breakpoint($medium) {
+      @include span(12 of 16 at 5);
+    }
+
+    @include breakpoint($large) {
+      @include span(12 of 16 at 5);
+    }
   }
 }
 .block--views--exp-business-page{
+  margin-top: 5px;
+
+  @include breakpoint($small) {
+    margin-top: 5px;
+  }
+  @include breakpoint($medium) {
+    margin-top: 80px;
+  }
+
+  @include breakpoint($large) {
+    margin-top: 80px;
+  }
   #views-exposed-form-business-page{
-    @include span(13 of 16 at 1);
+    width: 100%;
+    @include breakpoint($small) {
+      width: 100%;
+    }
+    @include breakpoint($medium) {
+      @include span(13 of 16 at 1);
+    }
+
+    @include breakpoint($large) {
+      @include span(13 of 16 at 1);
+    }
     .views-widget--filter-field_business_category{
-      @include span(3 of 10 at 1);
-      width: 30.571%;
+      width: 100%;
+      @include clearfix;
+      margin:0;
+      @include breakpoint($small) {
+        width: 100%;
+        margin:0;
+        @include clearfix;
+      }
+      @include breakpoint($medium) {
+        @include span(3 of 10 at 1);
+        width: 30.571%;
+      }
+
+      @include breakpoint($large) {
+        @include span(3 of 10 at 1);
+        width: 30.571%;
+      }
+
     }
     .views-widget--filter-search_api_views_fulltext{
-      @include span(7 of 10 at 4);
+      width: 100%;
+      @include clearfix;
+      margin:0;
+      @include breakpoint($small) {
+        width: 100%;
+        margin:0;
+        @include clearfix;
+      }
+
+      @include breakpoint($medium) {
+        @include span(7 of 10 at 4);
+      }
+
+      @include breakpoint($large) {
+        @include span(7 of 10 at 4);
+      }
+
     }
   }
 }
@@ -93,10 +251,85 @@ main{
     .content{
       overflow: auto;
       .views-row{
-        @include span(3);
-        margin-right: 0;
-        width: 20%;
+        margin: 0 auto;
+        width: 234px;
+        @include breakpoint($small) {
+          @include span(3);
+          width: 234px;
+          margin-left: 5%;
+        }
+
+        @include breakpoint($medium) {
+          @include span(3);
+          width: 234px;
+          margin-left: 4%;
+        }
+
+        @include breakpoint($large) {
+          @include span(3);
+          margin-right: 0;
+          margin-left: 0;
+          width: 20%;
+        }
+        .views-field-field-image{
+          img{
+
+          }
+        }
       }
+    }
+  }
+  .block--views-event-block{
+    .jcarousel-skin-default .jcarousel-item{
+      width: 330px;
+      @include breakpoint($small) {
+        width: 330px;
+      }
+
+      @include breakpoint($medium) {
+        width: 400px;
+      }
+
+      @include breakpoint($large) {
+        width: 565px;
+      }
+      margin-left: 5px;
+      margin: 0;
+      .views-field-nothing{
+        .icone{
+          float: left;
+          height: 150px;
+          padding-top: 40px;
+          width: 26.1%;
+        }
+        .eventdetail{
+          padding-top: 10px;
+          .titledate{
+            color: #0956f4;
+            font-size: 1.2em;
+            padding: 10px 0;
+          }
+          .description{
+            font-size: 0.8em;
+          }
+        }
+      }
+    }
+  }
+}
+
+.footer{
+  .block--sugufi-config{
+    width: 100%;
+    @include breakpoint($small) {
+      width: 100%;
+    }
+    @include breakpoint($medium) {
+      @include span(3 of 16 at 13);
+    }
+
+    @include breakpoint($large) {
+      @include span(3 of 16 at 13);
     }
   }
 }

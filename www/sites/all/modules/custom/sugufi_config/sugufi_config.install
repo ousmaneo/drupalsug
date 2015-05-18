@@ -53,7 +53,7 @@ function sugufi_config_update_7004(){
 /**
  * Create taxonomy terms
  */
-function sugufi_config_update_7005(){
+function sugufi_config_update_7006(){
 
 //Add terms to taxonomy category
 cache_clear_all();

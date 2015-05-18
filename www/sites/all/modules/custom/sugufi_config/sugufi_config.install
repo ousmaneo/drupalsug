@@ -49,3 +49,26 @@ function sugufi_config_update_7004(){
         ),TRUE
     );
 }
+
+/**
+ * Create taxonomy terms
+ */
+function sugufi_config_update_7005(){
+
+//Add terms to taxonomy category
+cache_clear_all();
+cache_clear_all();
+$category_vid = db_select('taxonomy_vocabulary', 'vocabs')
+  ->fields('vocabs', array('vid'))
+  ->condition('machine_name', 'category')
+  -> execute()
+  ->fetchField();
+   $categoryterms = array('Accounting, Tax Preparation', 'Automobile','Beauty Salon','CPA - Accounting Firm','Cafe','Clothing','Community Development','Construction','Consulting','Dental Practice','Flowers','Mechanical Contracting','Media','Non-Profit','Real Estate','Restaurant','Shipping and Packaging',
+                );
+   foreach ($categoryterms as $categorieterm) {
+    $term = new stdClass();
+    $term->name = $categorieterm;
+    $term->vid = $category_vid;
+    taxonomy_term_save($term);
+  }
+}

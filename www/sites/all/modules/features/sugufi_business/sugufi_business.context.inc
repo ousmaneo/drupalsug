@@ -154,6 +154,12 @@ function sugufi_business_context_default_contexts() {
           'region' => 'navigation',
           'weight' => '-10',
         ),
+        'sugufi_config-home_social_link' => array(
+          'module' => 'sugufi_config',
+          'delta' => 'home_social_link',
+          'region' => 'footer',
+          'weight' => '-10',
+        ),
       ),
     ),
   );

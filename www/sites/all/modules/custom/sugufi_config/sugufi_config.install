@@ -72,3 +72,11 @@ $category_vid = db_select('taxonomy_vocabulary', 'vocabs')
     taxonomy_term_save($term);
   }
 }
+
+function sugufi_config_update_7007(){
+    module_enable(
+        array(
+            'fontawesome'
+        ),TRUE
+    );
+}

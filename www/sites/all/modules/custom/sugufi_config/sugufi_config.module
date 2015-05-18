@@ -12,7 +12,9 @@ function sugufi_config_block_info(){
     $blocks['home_message_block'] = array(
         'info' => t('Home message Block'),
     );
-
+    $blocks['home_social_link'] = array(
+        'info' => t('social Block'),
+    );
     return $blocks;
 }
 
@@ -21,6 +23,10 @@ function sugufi_config_block_view($delta = '') {
 
     switch ($delta) {
         case 'home_message_block':
+            $block['subject'] = '';
+            $block['content'] = _block_content($delta);
+            break;
+        case 'home_social_link':
             $block['subject'] = '';
             $block['content'] = _block_content($delta);
             break;
@@ -33,6 +39,18 @@ function _block_content($delta) {
     switch ($delta) {
         case 'home_message_block':
             $output = t('Welcome to Sugufi African Business catalogue.');
+            return $output;
+            break;
+        case 'home_social_link':
+            $output = '<div class="facebook social">
+                        <a href="#"><i class="fa fa-facebook fa-lg"></i></a>
+                        </div>
+                        <div class="googleplus social">
+                            <a href="#"><i class="fa fa-google-plus fa-lg"></i></a>
+                        </div>
+                        <div class="twitter social">
+                            <a href="#"><i class="fa fa-twitter fa-lg"></i></a>
+                        </div>';
             return $output;
             break;
     }

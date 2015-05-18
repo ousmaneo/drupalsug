@@ -1081,6 +1081,52 @@ input.throbbing {
   display: none;
 }
 
+/* line 1, ../sass/partials/components/_footer.scss */
+.footer {
+  background-color: #00194e;
+  border-top: 8px solid #006fc5;
+  color: #fff;
+  height: 100px;
+  margin-top: 30px;
+  padding: 0;
+  width: 100%;
+}
+/* line 9, ../sass/partials/components/_footer.scss */
+.footer .block--sugufi-config {
+  width: 17.72152%;
+  float: left;
+  margin-left: 75.94937%;
+  margin-right: -100%;
+  padding-top: 20px;
+}
+/* line 12, ../sass/partials/components/_footer.scss */
+.footer .block--sugufi-config .social {
+  border-radius: 30px;
+  float: left;
+  height: 30px;
+  margin-right: 10px;
+  padding-top: 3px;
+  text-align: center;
+  width: 30px;
+}
+/* line 21, ../sass/partials/components/_footer.scss */
+.footer .block--sugufi-config .twitter {
+  background-color: #09baf4;
+}
+/* line 24, ../sass/partials/components/_footer.scss */
+.footer .block--sugufi-config .facebook {
+  background-color: #0956f4;
+}
+/* line 27, ../sass/partials/components/_footer.scss */
+.footer .block--sugufi-config .googleplus {
+  background-color: #f41a09;
+}
+/* line 31, ../sass/partials/components/_footer.scss */
+.footer .copyright {
+  font-size: 12px;
+  margin-left: 15px;
+}
+
 /* line 4, ../sass/partials/components/_form-item.scss */
 .form-item {
   margin: 1.3125em 0;
@@ -1392,19 +1438,119 @@ main .block--views-featured-business-block .content .views-row .views-field-fiel
   border-bottom: 1px solid #bbbbbb;
   border-right: 1px solid #bbbbbb;
   border-left: 1px solid #bbbbbb;
-  overflow: auto;
+  overflow: hidden;
+  float: left;
+  width: 100%;
 }
-/* line 52, ../sass/partials/components/_main.scss */
+/* line 54, ../sass/partials/components/_main.scss */
+main .block--views-featured-business-block .content .views-row .views-field-field-business-adress .fa-map-marker::before {
+  float: left;
+  padding-right: 4px;
+}
+/* line 58, ../sass/partials/components/_main.scss */
 main .block--views-featured-business-block .content .views-row .views-field-field-business-adress .addressfield-container, main .block--views-featured-business-block .content .views-row .views-field-field-business-adress .addressfield-container-inline {
   float: left;
   display: inline-block;
   padding-right: 3px;
 }
-/* line 57, ../sass/partials/components/_main.scss */
+/* line 63, ../sass/partials/components/_main.scss */
 main .block--views-featured-business-block .content .views-row .views-field-field-business-adress .country {
   display: inline-block;
   padding-right: 3px;
   float: left;
+}
+/* line 73, ../sass/partials/components/_main.scss */
+main .block--views-event-block {
+  margin: 40px 0;
+}
+/* line 75, ../sass/partials/components/_main.scss */
+main .block--views-event-block h2 {
+  font-size: 30px;
+  font-weight: 100;
+  line-height: 30px;
+  text-transform: capitalize;
+  border-bottom: 3px solid #0956f4;
+  width: 200px;
+  margin: 0;
+}
+/* line 85, ../sass/partials/components/_main.scss */
+main .block--views-event-block .content {
+  border-top: 1px solid #aaaaaa;
+}
+/* line 88, ../sass/partials/components/_main.scss */
+main .block--views-event-block .jcarousel-container.jcarousel-container-horizontal {
+  height: 202px;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+/* line 94, ../sass/partials/components/_main.scss */
+main .block--views-event-block .jcarousel-prev-horizontal {
+  position: absolute;
+  right: 6px;
+  top: -19px;
+  left: initial;
+  background: url("../images/left.png") no-repeat;
+}
+/* line 101, ../sass/partials/components/_main.scss */
+main .block--views-event-block .jcarousel-next-horizontal {
+  position: absolute;
+  right: -14px;
+  top: -19px;
+  background: url("../images/right.png") no-repeat;
+}
+/* line 107, ../sass/partials/components/_main.scss */
+main .block--views-event-block .jcarousel-skin-default .jcarousel-next-horizontal:hover, main .block--views-event-block .jcarousel-skin-default .jcarousel-prev-horizontal:hover {
+  background-position: 0 0;
+}
+/* line 111, ../sass/partials/components/_main.scss */
+main .block--views-event-block .jcarousel-skin-default {
+  text-align: initial;
+}
+/* line 114, ../sass/partials/components/_main.scss */
+main .block--views-event-block .jcarousel-skin-default .jcarousel-clip-horizontal {
+  width: 100%;
+}
+/* line 117, ../sass/partials/components/_main.scss */
+main .block--views-event-block .jcarousel-skin-default .jcarousel-item {
+  width: 400px;
+  height: auto;
+  border: none;
+}
+/* line 122, ../sass/partials/components/_main.scss */
+main .block--views-event-block .jcarousel-skin-default .jcarousel-item .views-field-nothing .icone {
+  background-color: #0956f4;
+  float: left;
+  height: 150px;
+  padding-top: 40px;
+  text-align: center;
+  width: 26.1%;
+  margin: 10px;
+}
+/* line 130, ../sass/partials/components/_main.scss */
+main .block--views-event-block .jcarousel-skin-default .jcarousel-item .views-field-nothing .icone i {
+  color: #efefef;
+}
+/* line 134, ../sass/partials/components/_main.scss */
+main .block--views-event-block .jcarousel-skin-default .jcarousel-item .views-field-nothing .eventdetail {
+  padding-top: 10px;
+}
+/* line 136, ../sass/partials/components/_main.scss */
+main .block--views-event-block .jcarousel-skin-default .jcarousel-item .views-field-nothing .eventdetail .titledate {
+  color: #0956f4;
+  font-size: 1.2em;
+  padding: 10px 0;
+}
+/* line 140, ../sass/partials/components/_main.scss */
+main .block--views-event-block .jcarousel-skin-default .jcarousel-item .views-field-nothing .eventdetail .titledate a {
+  text-decoration: none;
+  color: inherit;
+}
+/* line 145, ../sass/partials/components/_main.scss */
+main .block--views-event-block .jcarousel-skin-default .jcarousel-item .views-field-nothing .eventdetail .description {
+  color: #666;
+  text-align: left;
+  font-size: 0.8em;
 }
 
 /* line 4, ../sass/partials/components/_messages.scss */

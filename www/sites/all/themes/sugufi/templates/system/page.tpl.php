@@ -41,5 +41,8 @@
 <?php if ($page['footer']): ?>
   <footer class="footer" role="contentinfo">
     <?php print render($page['footer']); ?>
+      <div class="copyright">
+          <span class="copyright">Copyright <?php echo date('now'); ?>. All rights reserved. Coders4africa</span>
+      </div>
   </footer>
 <?php endif; ?>

@@ -48,7 +48,13 @@ main{
           border-bottom: 1px solid #bbbbbb;
           border-right: 1px solid #bbbbbb;
           border-left: 1px solid #bbbbbb;
-          overflow: auto;
+          overflow: hidden;
+          float: left;
+          width: 100%;
+          .fa-map-marker::before {
+            float: left;
+            padding-right: 4px;
+          }
           .addressfield-container,.addressfield-container-inline{
             float: left;
             display: inline-block;
@@ -58,6 +64,88 @@ main{
             display: inline-block;
             padding-right: 3px;
             float: left;
+          }
+        }
+      }
+    }
+  }
+
+  .block--views-event-block{
+    margin: 40px 0;
+    h2{
+      font-size: 30px;
+      font-weight: 100;
+      line-height: 30px;
+      text-transform: capitalize;
+      border-bottom: 3px solid #0956f4;
+      width: 200px;
+      margin: 0;
+//      margin-left: 14px;
+    }
+    .content{
+      border-top:1px solid #aaaaaa;
+    }
+    .jcarousel-container.jcarousel-container-horizontal{
+      height: 202px;
+      margin: 0;
+      padding:0;
+      width: 100%;
+    }
+    .jcarousel-prev-horizontal {
+      position: absolute;
+      right: 6px;
+      top: -19px;
+      left: initial;
+      background: url("../images/left.png") no-repeat;
+    }
+    .jcarousel-next-horizontal {
+      position: absolute;
+      right: -14px;
+      top: -19px;
+      background: url("../images/right.png") no-repeat;
+    }
+    .jcarousel-skin-default .jcarousel-next-horizontal:hover,.jcarousel-skin-default .jcarousel-prev-horizontal:hover  {
+      background-position: 0 0;
+    }
+
+    .jcarousel-skin-default{
+      text-align: initial;
+    }
+    .jcarousel-skin-default .jcarousel-clip-horizontal{
+      width: 100%;
+    }
+    .jcarousel-skin-default .jcarousel-item{
+      width: 400px;
+      height: auto;
+      border: none;
+      .views-field-nothing{
+        .icone{
+          background-color: #0956f4;
+          float: left;
+          height: 150px;
+          padding-top: 40px;
+          text-align: center;
+          width: 26.1%;
+          margin: 10px;
+          i{
+            color: #efefef;
+          }
+        }
+        .eventdetail{
+          padding-top: 10px;
+          .titledate{
+            color: #0956f4;
+            font-size: 1.2em;
+            padding: 10px 0;
+            a{
+              text-decoration: none;
+              color: inherit;
+            }
+          }
+          .description{
+            color: #666;
+            text-align: left;
+            font-size: 0.8em;
           }
         }
       }

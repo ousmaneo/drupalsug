@@ -449,6 +449,7 @@ function sugufi_business_views_default_views() {
 [field_business_adress-first_name] 
 [field_business_adress-last_name]
 [field_business_adress-data]';
+  $handler->display->display_options['fields']['field_business_adress']['element_class'] = 'fa fa-map-marker';
   $handler->display->display_options['fields']['field_business_adress']['element_label_colon'] = FALSE;
   $handler->display->display_options['fields']['field_business_adress']['click_sort_column'] = 'country';
   $handler->display->display_options['fields']['field_business_adress']['settings'] = array(

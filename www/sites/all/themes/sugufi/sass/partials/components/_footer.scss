@@ -1,0 +1,36 @@
+.footer{
+  background-color: #00194e;
+  border-top: 8px solid #006fc5;
+  color: #fff;
+  height: 100px;
+  margin-top: 30px;
+  padding: 0;
+  width: 100%;
+  .block--sugufi-config{
+    @include span(3 of 16 at 13);
+    padding-top: 20px;
+    .social{
+      border-radius: 30px;
+      float: left;
+      height: 30px;
+      margin-right: 10px;
+      padding-top: 3px;
+      text-align: center;
+      width: 30px;
+    }
+    .twitter {
+      background-color: #09baf4;
+    }
+    .facebook {
+      background-color: #0956f4;
+    }
+    .googleplus {
+      background-color: #f41a09;
+    }
+  }
+  .copyright{
+    font-size: 12px;
+    margin-left: 15px;
+
+  }
+}
